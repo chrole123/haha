@@ -16,6 +16,6 @@ public class HelloController {
 
     @RequestMapping("/hello/test")
     public void test(){
-        System.out.println("你好，我是haha,年龄：3岁。");
+        System.out.println("你好，我是haha,年龄：3岁。1");
     }
 }
