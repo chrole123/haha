@@ -1,0 +1,5 @@
+server:
+  port: 8599
+spring:
+  application:
+    name: jenk
