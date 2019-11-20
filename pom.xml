@@ -66,6 +66,19 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>jek-releases</id>
+            <name>Internal Releases</name>
+            <url>http://212.64.54.250:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>jek-snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>http://212.64.54.250:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 
 
 </project>
